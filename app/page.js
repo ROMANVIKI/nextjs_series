@@ -10,13 +10,13 @@ const Home = () => {
   const route = useRouter();
 
   const backToHomeFunc = () => {
-    route.back();
+    setIsImage((prev) => !prev)
   }
 
   return (
     <>
       {isImage ? (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 pt-8">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 pt-12">
           <div className=" text-3xl">
             <p>Project Structure Image</p>
           </div>
@@ -46,7 +46,7 @@ const Home = () => {
             </p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-2">
               <li>
-                <span className="font-semibold">`back()` method:</span> This allows us to navigate to the previous page in the browser's history. You can try this in the settings route to navigate to its parent route as specified in the project structure.
+                <span className="font-semibold">`back()` method:</span> This allows us to navigate to the previous page in the browser's history. You can try this in the settings route to navigate to its parent route as specified in the project structure. <span className="text-red-100">Note: Browser's History</span>
               </li>
               <li>
                 <span className="font-semibold">`push()` method:</span> This helps us navigate to a parent or specific route in the application.
