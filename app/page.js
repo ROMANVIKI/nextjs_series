@@ -17,9 +17,6 @@ const Home = () => {
     <>
       {isImage ? (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 pt-12">
-          <div className=" text-3xl">
-            <p>Project Structure Image</p>
-          </div>
           <div className='mt-4'>
 
             <Image
@@ -60,7 +57,7 @@ const Home = () => {
             onClick={() => setIsImage(true)}
             className="mt-6 bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-200"
           >
-            Show Image
+            Project Strucutre Image
           </button>
         </div>
       )}

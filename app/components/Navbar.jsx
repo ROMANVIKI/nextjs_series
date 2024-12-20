@@ -68,7 +68,7 @@ const Navbar = () => {
           <div className="absolute right-0 p-6 bg-gray-700 text-lg rounded-md shadow-lg">
             <div className="flex flex-col space-y-2 p-4 text-center">
               <Link href="/dashboard">
-                <p className="text-gray-300 cursor-pointer hover:text-white">
+                <p className="text-gray-300 cursor-pointer hover:text-white border border-b-zinc-50">
                   Dashboard
                 </p>
               </Link>
