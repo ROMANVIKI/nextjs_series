@@ -19,7 +19,7 @@ const Home = () => {
       </div>
       <div className="text-center px-4">
         <p className="text-lg text-gray-700 mb-4">
-          In today's Next.js class, we explored a technique for navigation:
+          In Day-2's Next.js class, we explored a technique for navigation:
         </p>
         <ul className="list-disc list-inside text-gray-600">
           <li>
