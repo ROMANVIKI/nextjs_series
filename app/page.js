@@ -43,7 +43,8 @@ const Home = () => {
             </p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-2">
               <li>
-                <span className="font-semibold">`back()` method:</span> This allows us to navigate to the previous page in the browser's history. You can try this in the settings route to navigate to its parent route as specified in the project structure. <span className="text-red-100">Note: Browser's History</span>
+                <span className="font-semibold">`back()` method:</span> This allows us to navigate to the previous page in the <span className="underline decoration-pink-500 font-semibold decoration-2">browser's history
+</span>. You can try this in the settings route to navigate to its parent route as specified in the project structure. 
               </li>
               <li>
                 <span className="font-semibold">`push()` method:</span> This helps us navigate to a parent or specific route in the application.
