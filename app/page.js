@@ -39,7 +39,7 @@ const Home = () => {
             <p className="text-base sm:text-lg text-gray-700 mb-4">
               In Day-2's Next.js class, we explored techniques for navigation and file-based routing:
               Like using <span className="font-semibold">`Link`</span> instead of <span className="font-semibold">`a`</span> and for navigating we used{' '}
-              <span className="font-semibold">`useRoute()`</span>.
+              <span className="font-semibold">`useRouter()`</span>.
             </p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-2">
               <li>
